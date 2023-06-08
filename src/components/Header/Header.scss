@@ -1,3 +1,29 @@
-.header-p {
-  padding: 2rem;
+.expertise {
+  margin-top: 2rem;
+}
+
+h1 {
+  font-family: poppins;
+  font-size: 64px;
+  color: black;
+  width: 600px;
+  text-align: left;
+
+  @media screen and (max-width: 768px) {
+    font-size: 32px;
+    font-weight: 800;
+    width: 100%;
+    margin-top: 80px;
+  }
+
+  span {
+    color: #42b983;
+  }
+}
+
+.img-header {
+  @media screen and (max-width: 768px) {
+    height: 30vh;
+    padding: 0px;
+  }
 }

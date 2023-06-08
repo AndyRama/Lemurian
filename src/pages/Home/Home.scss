@@ -9,9 +9,10 @@
   }
 }
 
-.container {
-  display: flex;
-}
+// .container {
+//   display: flex;
+//   background-color: red;
+// }
 
 .activité {
   font-size: 24px;
@@ -29,4 +30,13 @@
 
 .img-header {
   height: 80vh;
+}
+
+.header-home {
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  // height: 100vh;
+  padding-top: 60px !important;
 }

@@ -4,7 +4,7 @@ import Header from './../../components/Header/Header'
 
 function Home() {
   return (
-    <section className="mb-5">
+    <section>
       <Navbar />
       <Header />
     </section>
