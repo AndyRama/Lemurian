@@ -33,16 +33,23 @@ function Header() {
     <section className="header">
       <div className="container__left">
         <h1 className="container__left__title">
-          Création <span className="green">&</span>
+          Création <span className="container__left__title__green--not">&</span>
           <br /> Développement web <br /> par{' '}
-          <span className="green">Lemurian Agency</span>
+          <span className="container__left__title__green">Lemurian Agency</span>
         </h1>
         <p className="container__left__text">
-          Lemurian Agency développe des outils sur-mesure à destination des
-          entreprises. Je fais un sorte de faire gagner du temps et de
-          l'efficacité à mes clients en numérisant leurs processus, dans le
-          respect de leurs règles métiers.
+          Lemurian Agency est une agence de développement web basée à Bordeaux
+          (Nouvelle Aquitaine, 33). <br /> Je réalise tous types de
+          <span> logiciels</span> et d'<span>applications</span> sur mesure en
+          nous basant sur des technologies web modernes. Je me
+          <span> spécialisé</span> sur le langage JavaScript et plus
+          particulièrement sur <span>ReactJS</span> et NodeJS.
         </p>
+        <button className="contact">
+          <a href="#contact" className="contact__text">
+            Contactez-moi
+          </a>
+        </button>
       </div>
       <div className="container__right">
         <img

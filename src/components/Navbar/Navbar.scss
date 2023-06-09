@@ -9,10 +9,9 @@
   justify-content: right;
   position: fixed;
   z-index: 600;
-  width: 100%;
+  width: 90%;
 
   @media (max-width: 768px) {
-    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.07), 0 1px 0 0 rgba(0, 0, 0, 0.03);
     background: white;
     font-size: 20px;
   }
@@ -22,7 +21,7 @@
 .navbar-lemurian-brand img {
   height: 60px;
   position: fixed;
-  top: 6px;
+  top: 8px;
   left: 15px;
 }
 
@@ -32,10 +31,14 @@
   top: 25px;
   left: 52px;
   font-family: poppins;
-  font-size: 24px;
+  font-size: 32px;
   color: black;
-  text-decoration-color: #42b983;
   font-weight: bold;
+
+  @media (max-width: 768px) {
+    font-weight: 600;
+    font-size: 24px;
+  }
 }
 
 /* Basic navbar item */
@@ -61,7 +64,8 @@
   padding: 0 10px;
   text-decoration: none;
   color: white;
-  font-size: 12px;
+  font-size: 24px;
+
   @media (max-width: 768px) {
     font-size: 20px;
   }
@@ -87,10 +91,12 @@
   text-decoration: none;
   color: white;
 }
+
 .navbar-dropdown-menu {
   margin-top: 15px;
   border-color: #e6e6e6;
 }
+
 .navbar-dropdown-menu > a {
   transition: color 0.3s ease;
   font-weight: lighter !important;
@@ -99,10 +105,12 @@
   padding: 0px 15px;
   display: flex;
 }
+
 .navbar-dropdown-menu > a:hover {
   background: transparent !important;
   color: black !important;
 }
+
 .navbar-dropdown-menu:before {
   content: ' ';
   height: 10px;
@@ -145,14 +153,14 @@
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   margin-top: 22.5px;
-  background-color: white;
+  background-color: black;
 }
 
 #toggle:checked + .hamburger .meat {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   margin-top: -2px;
-  background-color: white;
+  background-color: black;
 }
 
 #toggle:checked + .hamburger .bottom {
@@ -169,15 +177,22 @@
 .nav {
   z-index: 1;
   position: fixed;
-  width: 100%;
+  width: 50%;
   height: 100%;
   top: -100%;
-  left: 0;
   right: 0;
   bottom: 0;
   overflow: hidden;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+
+  @media (max-width: 768px) {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
 }
 
 .nav .nav-wrapper {
