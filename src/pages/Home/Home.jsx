@@ -33,7 +33,6 @@ function Home() {
         <p className="blocText__text">{content[0].text}</p>
       </section>
       <div className="containner">
-        <BlocText />
         {/* COMPOMPOSENT DEVELOPPEMENT */}
         <section className="blocText">
           <h2 className="blocText__title">{content[1].title} </h2>
@@ -43,9 +42,11 @@ function Home() {
         <section className="blocText">
           <h2 className="blocText__title">{content[2].title} </h2>
           <p className="blocText__text">{content[2].text}</p>
+          <button>Discutons-en !</button>
         </section>
         {/* COMPOMPOSENT ARTISANS */}
         {/* COMPOMPOSENT QUI JE SUIS ! */}
+        <BlocText />
         {/* COMPOMPOSENT PROJECT */}
         {/* COMPOMPOSENT SAVOIR + */}
         <section className="blocText">
