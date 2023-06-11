@@ -1,8 +1,6 @@
 import './Home.scss'
-import Navbar from './../../components/Navbar/Navbar'
 import Header from './../../components/Header/Header'
-import BlocText from '../../components/blocText/BlocText'
-// import BlocIndication from '../../components/Bloc-Indication/BlocIndication'
+import BlocText from '../../components/BlocText/BlocText'
 
 function Home() {
   const content = [
@@ -26,7 +24,6 @@ function Home() {
 
   return (
     <section>
-      <Navbar />
       <Header />
       <section className="blocText">
         <h2 className="blocText__title">{content[0].title} </h2>
@@ -55,7 +52,6 @@ function Home() {
           <button>Discutons-en !</button>
         </section>
       </div>
-      {/* FOOTER + */}
     </section>
   )
 }
