@@ -25,11 +25,11 @@ function Home() {
   return (
     <section>
       <Header />
-      <section className="blocText">
-        <h2 className="blocText__title">{content[0].title} </h2>
-        <p className="blocText__text">{content[0].text}</p>
-      </section>
-      <div className="containner">
+      <div className="col-8">
+        <section className="blocText">
+          <h2 className="blocText__title">{content[0].title} </h2>
+          <p className="blocText__text">{content[0].text}</p>
+        </section>
         {/* COMPOMPOSENT DEVELOPPEMENT */}
         <section className="blocText">
           <h2 className="blocText__title">{content[1].title} </h2>
@@ -39,7 +39,11 @@ function Home() {
         <section className="blocText">
           <h2 className="blocText__title">{content[2].title} </h2>
           <p className="blocText__text">{content[2].text}</p>
-          <button>Discutons-en !</button>
+           <button className="contact">
+          <a href="#contact" className="contact__text">
+            Discutons-en !
+          </a>
+        </button>
         </section>
         {/* COMPOMPOSENT ARTISANS */}
         {/* COMPOMPOSENT QUI JE SUIS ! */}
@@ -49,7 +53,11 @@ function Home() {
         <section className="blocText">
           <h2 className="blocText__title">{content[3].title} </h2>
           <p className="blocText__text">{content[3].text}</p>
-          <button>Discutons-en !</button>
+           <button className="contact">
+          <a href="#contact" className="contact__text">
+          Discutons-en !
+          </a>
+        </button>
         </section>
       </div>
     </section>

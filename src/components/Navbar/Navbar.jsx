@@ -29,20 +29,24 @@ const Navbar = () => {
                   Home
                 </Link>
 
-                <Link to="/" className="navbar-link">
+                <Link to="/Expertise" className="navbar-link">
                   Expertise
                 </Link>
 
-                <Link to="/" className="navbar-link">
+                <Link to="/Methodologie" className="navbar-link">
                   Méthodologie
                 </Link>
 
-                <Link to="/" className="navbar-link">
+                <Link to="/projets" className="navbar-link">
                   Projets
                 </Link>
 
-                <Link to="/" className="navbar-link">
+                <Link to="/Contact" className="navbar-link">
                   Contact
+                </Link>
+
+                <Link to="/Profile" className="navbar-link">
+                  Profile
                 </Link>
 
                 {userSignedIn ? (
