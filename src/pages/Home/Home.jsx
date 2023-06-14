@@ -1,8 +1,12 @@
 import './Home.scss'
 import Header from './../../components/Header/Header'
 import BlocText from '../../components/BlocText/BlocText'
+import { Link } from 'react-router-dom'
+import React from 'react'
+
 
 function Home() {
+
   const content = [
     {
       title: 'Expertise',
@@ -26,42 +30,25 @@ function Home() {
     <section>
       <Header />
       <div className="col-8">
-        <section className="blocText">
-          <h2 className="blocText__title">{content[0].title} </h2>
-          <p className="blocText__text">{content[0].text}</p>
-        </section>
-        {/* COMPOMPOSENT DEVELOPPEMENT */}
-        <section className="blocText">
-          <h2 className="blocText__title">{content[1].title} </h2>
-          <p className="blocText__text">{content[1].text}</p>
-        </section>
-        {/* COMPOMPOSENT CONFIANCE */}
-        <section className="blocText">
-          <h2 className="blocText__title">{content[2].title} </h2>
-          <p className="blocText__text">{content[2].text}</p>
-           <button className="contact">
-          <a href="#contact" className="contact__text">
-            Discutons-en !
-          </a>
-        </button>
-        </section>
-        {/* COMPOMPOSENT ARTISANS */}
-        {/* COMPOMPOSENT QUI JE SUIS ! */}
+        {content.map((item, index) => (
+          <section key={index} className="blocText">
+            <h2 className="blocText__title">{item.title}</h2>
+            <p className="blocText__text">{item.text}</p>
+          </section>
+          ))}
         <BlocText />
-        {/* COMPOMPOSENT PROJECT */}
-        {/* COMPOMPOSENT SAVOIR + */}
         <section className="blocText">
-          <h2 className="blocText__title">{content[3].title} </h2>
+          <h2 className="blocText__title">{content[3].title}</h2>
           <p className="blocText__text">{content[3].text}</p>
-           <button className="contact">
-          <a href="#contact" className="contact__text">
-          Discutons-en !
-          </a>
-        </button>
+          <button className="contact">
+            <Link to="/Contact" className="contact__text">
+              Discutons-en !
+            </Link>
+          </button>
         </section>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

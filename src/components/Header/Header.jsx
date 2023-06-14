@@ -1,6 +1,9 @@
 import React from 'react'
 import desktop from './../../assets/desktop.jpg'
 import './Header.scss'
+import { Link } from 'react-router-dom'
+
+
 
 function Header() {
   //   return (
@@ -45,10 +48,11 @@ function Header() {
           <span> spécialisé</span> sur le langage JavaScript et plus
           particulièrement sur <span>ReactJS</span> et NodeJS.
         </p>
-        <button className="contact">
-          <a href="#contact" className="contact__text">
-            Contactez-moi
-          </a>
+        <button>
+
+        <Link to="/Contact" className="contact__text">
+          Contact
+        </Link>   
         </button>
       </div>
       <div className="container__right">
