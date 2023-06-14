@@ -14,7 +14,6 @@ const Navbar = () => {
       </Link>
 
       <div className="d-md-block">
-        {/* <div className="d-block d-md-none"> */}
         <div className="navbar-dropdown">
           <input id="toggle" type="checkbox" />
           <label className="hamburger" htmlFor="toggle">

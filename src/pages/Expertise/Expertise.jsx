@@ -2,13 +2,9 @@ import React from 'react'
 
 function Expertise() {
   return (
-  <section>
-    <div className="container">
-
-    <h1>Expertise</h1>
-    </div>
-    <p></p>
-  </section>
+<header>
+  <h1>ok</h1>
+</header>
   )
 }
 

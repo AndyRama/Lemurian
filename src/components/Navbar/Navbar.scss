@@ -9,7 +9,7 @@
   justify-content: right;
   position: fixed;
   z-index: 600;
-  width: 90%;
+  width: 100%;
 
   @media (max-width: 768px) {
     background: white;
@@ -129,7 +129,7 @@
   position: absolute;
   width: 30px;
   height: 25px;
-  top: 21px;
+  top: 7px;
   right: 15px;
   z-index: 5;
 }

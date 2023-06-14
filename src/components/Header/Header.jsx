@@ -39,7 +39,7 @@ function Header() {
         </h1>
         <p className="container__left__text">
           Lemurian Agency est une agence de développement web basée à Bordeaux
-          (Nouvelle Aquitaine, 33). <br /> Je réalise tous types de
+          (Nouvelle Aquitaine, 33). Je réalise tous types de
           <span> logiciels</span> et d'<span>applications</span> sur mesure en
           nous basant sur des technologies web modernes. Je me
           <span> spécialisé</span> sur le langage JavaScript et plus
