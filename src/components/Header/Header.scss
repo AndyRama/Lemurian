@@ -1,10 +1,9 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin: 50px;
 
   @media screen and (max-width: 768px) {
-    margin: 15px;
+    margin-left: 15px;
     width: 300px;
   }
 }
@@ -12,12 +11,11 @@
 .container__left {
   width: 400px;
   float: left;
-  margin-top: 100px;
   z-index: 1;
   justify-content: center;
-  margin: 20px;
-
+  
   @media screen and (max-width: 768px) {
+    margin-top: 100px;
     flex-wrap: wrap;
     flex-direction: column;
     width: 324px;
@@ -27,7 +25,6 @@
     font-family: poppins;
     font-size: 52px;
     width: 560px;
-    margin-top: 50px;
     font-weight: 500;
 
     &__green {
@@ -41,7 +38,6 @@
     }
 
     @media screen and (max-width: 768px) {
-      margin-top: 70px;
       font-size: 36px;    
     }
   }
@@ -54,13 +50,8 @@
     @media screen and (min-width: 768px) {
       width: 500px;
       text-align: left !important;
-      margin-top: 50px;
       text-align: center;
       font-size: 22px;
-    }
-
-    @media screen and (min-width: 576px) {
-
     }
 
     span {

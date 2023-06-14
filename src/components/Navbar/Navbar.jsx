@@ -4,7 +4,6 @@ import logo from './../../assets/lemurian.png'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
-  const userSignedIn = false // Remplacez cette valeur par votre logique de connexion utilisateur
 
   return (
     <div className="navbar-lemurian">
@@ -36,7 +35,7 @@ const Navbar = () => {
                   Méthodologie
                 </Link>
 
-                <Link to="/projets" className="navbar-link">
+                <Link to="/Projets" className="navbar-link">
                   Projets
                 </Link>
 
@@ -47,21 +46,6 @@ const Navbar = () => {
                 <Link to="/Profile" className="navbar-link">
                   Profile
                 </Link>
-
-                {userSignedIn ? (
-                  <Link to="/logout" className="navbar-link">
-                    Se déconnecter
-                  </Link>
-                ) : (
-                  <>
-                    <Link to="/register" className="navbar-link">
-                      Créer un compte
-                    </Link>
-                    <Link to="/login" className="navbar-link">
-                      Se connecter
-                    </Link>
-                  </>
-                )}
               </nav>
             </div>
           </div>

@@ -1,10 +1,9 @@
 import React from 'react'
+import './Footer.scss'
 
 function Footer() {
   return (
-    <div>
-      <hr />
-      Footer
+    <div className='footer'>Footer test
     </div>
   )
 }
