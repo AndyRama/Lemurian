@@ -50,7 +50,7 @@ function Header() {
         </p>
         <button>
 
-        <Link to="/Contact" className="contact__text">
+        <Link to="/" className="contact__text">
           Contact
         </Link>   
         </button>

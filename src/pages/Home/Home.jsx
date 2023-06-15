@@ -36,12 +36,12 @@ function Home() {
             <p className="blocText__text">{item.text}</p>
           </section>
           ))}
-        <BlocText />
+
         <section className="blocText">
           <h2 className="blocText__title">{content[3].title}</h2>
           <p className="blocText__text">{content[3].text}</p>
-          <button className="contact">
-            <Link to="/Contact" className="contact__text">
+          <button className="Contact">
+            <Link to="/contact" className="contact__text">
               Discutons-en !
             </Link>
           </button>
