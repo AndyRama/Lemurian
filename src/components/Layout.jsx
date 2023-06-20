@@ -17,8 +17,8 @@ function Layout() {
         <Route path="/" element={<Home />} />
         <Route path="/Expertise" element={<Expertise />} />
         <Route path="/Methodologie" element={<Methodologie />} />
-        <Route path="/Projets" element={<Projets />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Projets" element={<Projets />} />
         <Route path="/Profile" element={<Profile />} />
       </Routes>
       <Footer />

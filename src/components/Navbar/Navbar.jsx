@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="navbar-lemurian">
       <Link to="/" className="navbar-lemurian-brand">
         <img src={logo} alt="Logo" />
-        <h2 className="avatar">Lemurian Agency</h2>
+        <h2 className="avatar">Lemurian</h2>
       </Link>
 
       <div className="d-md-block">

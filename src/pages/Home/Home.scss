@@ -1,0 +1,17 @@
+.Home__title {
+  font-weight: 600;
+  font-size: 32px;
+
+  @media screen and (max-width: 768px) {
+    text-align: left;
+    margin-left: 12px;    
+  }
+
+}
+
+.Home__text {
+  
+  @media screen and (max-width: 768px) {
+    width: 350px;
+  }
+}
