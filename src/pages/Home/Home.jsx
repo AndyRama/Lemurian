@@ -14,8 +14,7 @@ function Home() {
   return (
     <section>
       <Header />
-      <BlocText />
-      <div>
+      <div className="tab">
         <ul class="list-inline tabs-underlined">
           <li>
             <Link to="/Expertise" class="tab-underlined active">
@@ -34,6 +33,7 @@ function Home() {
           </li>
         </ul>
       </div>
+      <BlocText />
       <div className="blocText">
         <h2 className="blocText__title">{content.title}</h2>
         <p className="blocText__text">{content.text}</p>
