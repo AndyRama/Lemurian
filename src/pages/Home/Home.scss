@@ -4,14 +4,32 @@
 
   @media screen and (max-width: 768px) {
     text-align: left;
-    margin-left: 12px;    
+    margin-left: 12px;
   }
-
 }
 
 .Home__text {
-  
   @media screen and (max-width: 768px) {
     width: 350px;
   }
+}
+
+.tabs-underlined {
+  display: flex;
+  align-items: center;
+}
+
+.tabs-underlined .tab-underlined {
+  color: black;
+  padding: 8px;
+  margin: 8px;
+  opacity: 0.4;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 4px solid transparent;
+}
+
+.tabs-underlined .tab-underlined.active {
+  opacity: 1;
+  border-bottom: 3px solid #555555;
 }

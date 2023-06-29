@@ -3,8 +3,6 @@ import desktop from './../../assets/desktop.jpg'
 import './Header.scss'
 import { Link } from 'react-router-dom'
 
-
-
 function Header() {
   return (
     <section className="header">
@@ -15,15 +13,17 @@ function Header() {
           <span className="container__left__title__green">Lemurian Agency</span>
         </h1>
         <p className="container__left__text">
-          Lemurian est une agence de développement web basée à Bordeaux (Nouvelle Aquitaine, 33).
-          Je réalise tous types de <span> logiciels</span> et d'<span>applications</span> sur mesure
-          en nous basant sur des technologies web modernes. Je me <span> spécialisé</span> sur le langage
-          JavaScript et plus particulièrement sur <span>ReactJS</span> et NodeJS.
+          Lemurian est une agence de développement web basée à Bordeaux
+          (Nouvelle Aquitaine, 33). Je réalise tous types de{' '}
+          <span> logiciels</span> et d'<span>applications</span> sur mesure en
+          nous basant sur des technologies web modernes. Je me{' '}
+          <span> spécialisé</span> sur le langage JavaScript et plus
+          particulièrement sur <span>ReactJS</span> et NodeJS.
         </p>
         <button className="contact">
           <Link to="/Contact" className="contact__text">
-           Contact
-          </Link>   
+            Contact
+          </Link>
         </button>
       </div>
 

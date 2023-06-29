@@ -1,6 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 
   @media screen and (max-width: 768px) {
     margin-left: 15px;
@@ -16,16 +17,16 @@
   justify-content: center;
 
   @media screen and (max-width: 768px) {
-    margin-top: 100px;
+    margin-top: 80px;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 324px;
+    width: 100%;
   }
 
   &__title {
     font-family: poppins;
     font-size: 52px;
-    width: 560px;
+    width: auto;
     font-weight: 500;
 
     &__green {
@@ -49,11 +50,11 @@
 
   &__text {
     @media screen and (min-width: 992px) {
-      width: 400px;
+      width: 900px;
     }
 
     @media screen and (min-width: 768px) {
-      width: 300px;
+      width: 900px;
       text-align: left !important;
       text-align: center;
       font-size: 22px;
