@@ -20,7 +20,7 @@ function Header() {
           <span> spécialisé</span> sur le langage JavaScript et plus
           particulièrement sur <span>ReactJS</span> et NodeJS.
         </p>
-        <button className="contact">
+        <button className="btn_contact">
           <Link to="/Contact" className="contact__text">
             Contact
           </Link>

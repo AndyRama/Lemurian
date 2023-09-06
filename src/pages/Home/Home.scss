@@ -39,3 +39,124 @@
   border-bottom: 3px solid #4dc942;
   color: #4dc942;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+
+  @media screen and (max-width: 768px) {
+    // margin-left: 15px;
+    width: 300px;
+    margin-bottom: 60px;
+  }
+}
+
+.container__left {
+  margin-top: 15%;
+  width: 600px;
+  float: left;
+  z-index: 1;
+  justify-content: center;
+
+  @media screen and (max-width: 768px) {
+    width: 300px;
+    // margin-top: 80px;S
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  &__title {
+    font-family: poppins;
+    font-size: 52px;
+    width: auto;
+    font-weight: 500;
+
+    &__green {
+      color: #4dc942;
+      text-decoration: underline #4dc942;
+
+      &--not {
+        color: #4dc942;
+        text-decoration: display;
+      }
+    }
+
+    @media screen and (max-width: 100%) {
+      &__title {
+        margin-top: 200px;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      font-size: 36px;
+    }
+
+    @media screen and (max-width: 576px) {
+      font-size: 30px;
+    }
+  }
+
+  &__text {
+    @media screen and (min-width: 992px) {
+      width: 50%;
+    }
+
+    @media screen and (min-width: 768px) {
+      width: 500px;
+      text-align: left !important;
+      // text-align: center;
+      font-size: 22px;
+    }
+
+    span {
+      font-weight: 700;
+    }
+  }
+}
+
+.contact {
+  width: 250px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: black;
+  margin-top: 18px;
+
+  @media screen and (max-width: 500px) {
+    width: 150px;
+    height: 40px;
+  }
+
+  &__text {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+
+    @media screen and (max-width: 500px) {
+      font-size: 16px;
+    }
+  }
+}
+
+.container__Right {
+  &__img {
+    height: 90%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+
+    @media screen and (max-width: 1200px) {
+      width: 50%;
+      height: 80%;
+    }
+
+    @media screen and (max-width: 768px) {
+      position: relative;
+      width: calc(100% - 10px);
+      margin: 20px;
+    }
+  }
+}
