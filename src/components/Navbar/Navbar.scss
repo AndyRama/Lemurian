@@ -153,14 +153,14 @@
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   margin-top: 22.5px;
-  background-color: black;
+  background-color: #4dc942;
 }
 
 #toggle:checked + .hamburger .meat {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   margin-top: -2px;
-  background-color: black;
+  background-color: #4dc942;
 }
 
 #toggle:checked + .hamburger .bottom {

@@ -5,15 +5,6 @@ import { Link } from 'react-router-dom'
 function BlocText() {
   const content = [
     {
-      title: 'Mon Expertise',
-      text: "Je réalise depuis 3 ans des outils sur-mesure à destination d'entreprises de petite taille. Je transforme chaque besoin de mes clients en solution web, en garantissant le respect de leurs règles métiers.",
-      link: 'Expertise',
-    },
-    {
-      title: "Ils m'ont fait confiance",
-      text: 'Nous réalisons au quotidien des projets pour des startups et des petites PME.',
-    },
-    {
       title: 'Les projets',
       text: "Je réalise des applications web sur-mesure, destinées à optimiser le quotidien de nos clients. Le gain de temps, l'efficacité et la personnalisation sont les maîtres mots !",
     },

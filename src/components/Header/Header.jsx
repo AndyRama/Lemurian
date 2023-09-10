@@ -9,7 +9,7 @@ function Header() {
       <div className="container__left">
         <h1 className="container__left__title">
           Création <span className="container__left__title__green--not">&</span>
-          <br /> Développement web <br /> par
+          <br /> Développement web <br /> par{' '}
           <span className="container__left__title__green">Lemurian Agency</span>
         </h1>
         <p className="container__left__text">

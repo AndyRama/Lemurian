@@ -49,14 +49,15 @@
 
     @media screen and (max-width: 576px) {
       font-size: 32px;
+      margin-top: 30px;
     }
   }
 
   &__text {
     font-family: poppins;
     font-size: 24px;
-    width: 800px;
-    margin: 30px 0px 30px 0px;
+    width: 640px;
+    // margin: 30px 0px 30px 0px;
     text-align: justify;
 
     @media screen and (max-width: 1280px) {
@@ -71,6 +72,7 @@
     @media screen and (max-width: 536px) {
       width: 300px !important;
       font-size: 20px;
+      margin-top: 50px;
     }
 
     &__green {
@@ -90,8 +92,8 @@
 }
 
 .btn_contact {
-  width: 250px;
-  height: 70px;
+  width: 150px;
+  height: 50px;
   border-radius: 5px;
 
   @media screen and (max-width: 500px) {
@@ -106,6 +108,7 @@
     color: black;
     font-size: 24px;
     font-weight: bold;
+    font-family: popins;
 
     @media screen and (max-width: 500px) {
       font-size: 18px;
@@ -113,19 +116,18 @@
   }
 }
 
-.container__Right {
-  display: flex;
+// .container__Right {
+//   display: flex;
+//   &__img {
+//     width: 35%;
+//     height: 72%;
+//     position: absolute;
+//     top: 0;
+//     right: 0;
 
-  &__img {
-    width: 35%;
-    height: 80%;
-    position: absolute;
-    top: 0;
-    right: 0;
-
-    @media screen and (max-width: 840px) {
-      width: 0%;
-      height: 0;
-    }
-  }
-}
+//     @media screen and (min-width: 760px) {
+//       width: 0%;
+//       height: 0;
+//     }
+//   }
+// }
