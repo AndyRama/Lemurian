@@ -15,10 +15,15 @@ function Header() {
         <p className="container__left__text">
           Lemurian est une agence de développement web basée à Bordeaux
           (Nouvelle Aquitaine, 33). Je réalise tous types de{' '}
-          <span> logiciels</span> et d'<span>applications</span> sur mesure en
-          nous basant sur des technologies web modernes. Je me{' '}
-          <span> spécialisé</span> sur le langage JavaScript et plus
-          particulièrement sur <span>ReactJS</span> et NodeJS.
+          <span className="container__left__text__green--not"> logiciels</span>{' '}
+          et d'
+          <span className="container__left__text__green--not">
+            applications
+          </span>{' '}
+          sur mesure en nous basant sur des technologies web modernes. Je me{' '}
+          <span className="container__left__text__green--not"> spécialisé</span>{' '}
+          sur le langage JavaScript et plus particulièrement sur{' '}
+          <span>ReactJS</span> et NodeJS.
         </p>
         <button className="btn_contact">
           <Link to="/Contact" className="contact__text">

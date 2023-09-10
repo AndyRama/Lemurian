@@ -1,7 +1,8 @@
 .header {
   display: flex;
+  height: 95vh;
   justify-content: space-between;
-  width: 100%;
+  width: 1320px;
 
   @media screen and (max-width: 768px) {
     margin-left: 15px;
@@ -11,16 +12,19 @@
 }
 
 .container__left {
-  width: 400px;
-  float: left;
+  width: 600px;
   z-index: 1;
-  justify-content: center;
+  position: fixed;
+  top: 15%;
+  left: 10%;
+  // margin: 20px;
 
   @media screen and (max-width: 768px) {
-    margin-top: 80px;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 100%;
+    left: 5% !important;
+  }
+
+  @media screen and (max-width: 536px) {
+    margin: 0;
   }
 
   &__title {
@@ -39,31 +43,44 @@
       }
     }
 
-    @media screen and (max-width: 100%) {
-      &__title {
-        margin-top: 200px;
-      }
-    }
-
     @media screen and (max-width: 768px) {
-      font-size: 36px;
+      font-size: 48px;
     }
 
     @media screen and (max-width: 576px) {
-      font-size: 30px;
+      font-size: 32px;
     }
   }
 
   &__text {
-    @media screen and (min-width: 992px) {
-      width: 50%;
+    font-family: poppins;
+    font-size: 24px;
+    width: 800px;
+    margin: 30px 0px 30px 0px;
+    text-align: justify;
+
+    &__green {
+      color: #4dc942;
+      text-decoration: underline #4dc942;
+
+      &--not {
+        color: #4dc942;
+        text-decoration: display;
+      }
     }
 
-    @media screen and (min-width: 768px) {
-      width: 9300px;
-      // text-align: left !important;
-      text-align: center;
-      font-size: 22px;
+    @media screen and (max-width: 1200px) {
+      width: 700px;
+    }
+
+    @media screen and (max-width: 768px) {
+      width: 400px;
+      font-size: 20px;
+    }
+
+    @media screen and (max-width: 536px) {
+      width: 320px !important;
+      font-size: 20px;
     }
 
     span {
@@ -76,7 +93,7 @@
   width: 250px;
   height: 70px;
   border-radius: 10px;
-  background-color: black;
+  border-color: black;
 
   @media screen and (max-width: 500px) {
     width: 150px;
@@ -97,20 +114,18 @@
 }
 
 .container__Right {
+  display: flex;
+
   &__img {
-    height: 90%;
+    height: 70%;
     position: absolute;
     top: 0;
+    width: 40%;
     right: 0;
-    width: 50%;
 
-    @media screen and (max-width: 1200px) {
-      width: 60%;
-      height: 80%;
-    }
-
-    @media screen and (max-width: 768px) {
-      display: none;
+    @media screen and (max-width: 840px) {
+      width: 0%;
+      height: 0;
     }
   }
 }
