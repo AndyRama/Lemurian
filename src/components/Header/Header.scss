@@ -49,7 +49,7 @@
 
     @media screen and (max-width: 576px) {
       font-size: 32px;
-      margin-top: 30px;
+      // margin-top: 30px;
     }
   }
 
@@ -57,7 +57,6 @@
     font-family: poppins;
     font-size: 24px;
     width: 640px;
-    // margin: 30px 0px 30px 0px;
     text-align: justify;
 
     @media screen and (max-width: 1280px) {
@@ -72,7 +71,8 @@
     @media screen and (max-width: 536px) {
       width: 300px !important;
       font-size: 20px;
-      margin-top: 50px;
+      margin-top: 20px;
+      margin-bottom: 20px !important;
     }
 
     &__green {
@@ -115,19 +115,3 @@
     }
   }
 }
-
-// .container__Right {
-//   display: flex;
-//   &__img {
-//     width: 35%;
-//     height: 72%;
-//     position: absolute;
-//     top: 0;
-//     right: 0;
-
-//     @media screen and (min-width: 760px) {
-//       width: 0%;
-//       height: 0;
-//     }
-//   }
-// }
