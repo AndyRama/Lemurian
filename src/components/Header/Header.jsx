@@ -9,24 +9,29 @@ function Header() {
       <div className="container__left">
         <h1 className="container__left__title">
           Création <span className="container__left__title__green--not">&</span>
-          <br /> Développement web <br /> par{' '}
+          <br /> Développement web <br /> par
           <span className="container__left__title__green">Lemurian Agency</span>
         </h1>
         <p className="container__left__text">
           Lemurian est une agence de développement web basée à Bordeaux
-          (Nouvelle Aquitaine, 33). Je réalise tous types de{' '}
-          <span className="container__left__text__green--not"> logiciels</span>{' '}
+          (Nouvelle Aquitaine, 33). Je réalise tous types de
+          <span className="container__left__text__green--not"> logiciels </span>
           et d'
           <span className="container__left__text__green--not">
-            applications
-          </span>{' '}
-          sur mesure en nous basant sur des technologies web modernes. Je me{' '}
-          <span className="container__left__text__green--not"> spécialisé</span>{' '}
-          sur le langage JavaScript et plus particulièrement sur{' '}
-          <span>ReactJS</span> et NodeJS.
+            {' '}
+            applications{' '}
+          </span>
+          sur mesure en nous basant sur des technologies web modernes et IA. Je
+          me
+          <span className="container__left__text__green--not">
+            {' '}
+            suis spécialisé{' '}
+          </span>
+          sur le langage JavaScript et plus particulièrement sur
+          <span> ReactJS</span> et NodeJS.
         </p>
         <button className="btn_contact">
-          <Link to="/Contact" className="contact__text">
+          <Link to="/Contact" className="btn_contact__text">
             Contact
           </Link>
         </button>

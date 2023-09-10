@@ -19,10 +19,10 @@
 
 /* Logo */
 .navbar-lemurian-brand img {
-  height: 60px;
+  height: 70px;
   position: fixed;
-  top: 8px;
-  left: 15px;
+  top: 5px;
+  left: 2px;
 }
 
 /* User Avatar */
@@ -71,16 +71,16 @@
   }
 }
 .navbar-link:hover {
-  color: #da552f;
+  color: #4dc942;
   text-decoration: none;
 }
 .navbar-link:visited {
   outline: 0;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 .navbar-link:focus {
-  color: white;
+  color: #4dc942;
   outline: 0;
   text-decoration: none;
 }
@@ -170,14 +170,14 @@
 
 #toggle:checked + .hamburger + .nav {
   top: 0;
-  background-color: rgb(77, 201, 66, 0.9);
+  background-color: rgba(245, 248, 247, 0.9);
 }
 
 /* Menu Styling */
 .nav {
   z-index: 1;
   position: fixed;
-  width: 50%;
+  width: 30%;
   height: 100%;
   top: -100%;
   right: 0;

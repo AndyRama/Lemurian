@@ -7,6 +7,7 @@ function BlocText() {
     {
       title: 'Mon Expertise',
       text: "Je réalise depuis 3 ans des outils sur-mesure à destination d'entreprises de petite taille. Je transforme chaque besoin de mes clients en solution web, en garantissant le respect de leurs règles métiers.",
+      link: 'Expertise',
     },
     {
       title: "Ils m'ont fait confiance",
@@ -14,7 +15,7 @@ function BlocText() {
     },
     {
       title: 'Les projets',
-      text: "Je réalise Nous nous spécialisons dans la création d'applications web sur-mesure, destinées à optimiser le quotidien de nos clients. Le gain de temps, l'efficacité et la personnalisation sont les maîtres mots !",
+      text: "Je réalise des applications web sur-mesure, destinées à optimiser le quotidien de nos clients. Le gain de temps, l'efficacité et la personnalisation sont les maîtres mots !",
     },
   ]
 
