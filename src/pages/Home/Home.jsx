@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../../components/Header/Header'
 import Tabs from '../../components/Tabs/Tabs'
+import Feature from '../../components/Feature/Feature'
 import './Home.scss'
 import { Link } from 'react-router-dom'
 
@@ -8,7 +9,6 @@ function Home() {
   return (
     <div className="container">
       <Header />
-
       {/* Expertise */}
       <section className="blocText">
         <div className="container">
@@ -31,6 +31,10 @@ function Home() {
             Chez Lemurian Agency, j'ai une passion pour les passions !
           </p>
           {/* Composant featured */}
+          <Feature />
+          <Feature />
+          <Feature />
+          <Feature />
         </div>
       </section>
 
