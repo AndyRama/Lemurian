@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from '../../components/Header/Header'
+import Tabs from '../../components/Tabs/Tabs'
 import './Home.scss'
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
@@ -23,6 +25,7 @@ function Home() {
       {/* Développement[mobile] */}
       <section className="blocText">
         <div className="container">
+          <Tabs />
           <h2 className="blocText__title">Developpement</h2>
           <p className="blocText__text">
             Chez Lemurian Agency, j'ai une passion pour les passions !
@@ -40,8 +43,6 @@ function Home() {
             Nous réalisons au quotidien des projets pour des startups et des
             petites PME.
           </p>
-
-          {/* Bloc image marue entrprise */}
         </div>
       </section>
 
@@ -49,7 +50,7 @@ function Home() {
       <section className="blocText">
         <div className="container">
           <h2 className="blocText__title">
-            Un <span className=""></span> artisan du web
+            Un <span className="green">artisan</span> du web
           </h2>
           <p className="blocText__text">
             Chacun des projets que nous réalisons est unique, alors nous

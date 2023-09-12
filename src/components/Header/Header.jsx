@@ -21,8 +21,9 @@ function Header() {
             {' '}
             applications{' '}
           </span>
-          sur mesure en nous basant sur des technologies web modernes et IA. Je
-          me
+          sur mesure en nous basant sur des technologies web modernes et IA.{' '}
+          <br />
+          <br /> Je me
           <span className="container__left__text__green--not">
             {' '}
             suis spécialisé{' '}
@@ -32,7 +33,7 @@ function Header() {
         </p>
         <button className="btn_contact">
           <Link to="/Contact" className="btn_contact__text">
-            Contact
+            Me contacter
           </Link>
         </button>
       </div>
