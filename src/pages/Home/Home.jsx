@@ -30,7 +30,6 @@ function Home() {
           <p className="blocText__text">
             Chez Lemurian Agency, j'ai une passion pour les passions !
           </p>
-
           {/* Composant featured */}
         </div>
       </section>
@@ -60,7 +59,7 @@ function Home() {
             appels téléphoniques, des réunions visio, nous avons mis en place :
           </p>
 
-          <ul className="blocText__text">
+          <ul className="blocText__text ">
             <li className="blocText__text__subtext">
               Un dépôt de code source Git administré à l’aide de Gitlab.
             </li>

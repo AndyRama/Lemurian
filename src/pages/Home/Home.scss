@@ -19,7 +19,6 @@
 
   @media screen and (max-width: 768px) {
     width: 300px;
-    // margin-top: 80px;S
     flex-wrap: wrap;
     flex-direction: column;
     width: 100%;
@@ -29,7 +28,7 @@
     font-family: poppins;
     font-size: 52px;
     width: auto;
-    font-weight: 500;
+    font-weight: 600;
 
     &__green {
       color: #4dc942;
@@ -65,7 +64,11 @@
     @media screen and (min-width: 768px) {
       width: 500px;
       text-align: left !important;
-      font-size: 22px;
+      font-size: 24px;
+    }
+
+    @media screen and (min-width: 576px) {
+      width: 400px;
     }
 
     span {
@@ -106,17 +109,17 @@
 
   @media screen and (max-width: 500px) {
     width: 150px;
-    height: 50px;
+    height: 40px;
   }
 
   &__text {
     text-decoration: none;
     color: white;
     font-size: 24px;
-    font-weight: bold;
+    // font-weight: bold;
 
     @media screen and (max-width: 500px) {
-      margin-top: -18px;
+      // margin-top: -18px;
       font-size: 16px;
     }
   }
@@ -149,9 +152,9 @@
   }
 
   &__title {
-    font-size: 32px;
+    font-size: 30px;
     margin-bottom: 20px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: popins;
   }
 

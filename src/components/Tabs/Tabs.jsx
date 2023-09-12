@@ -21,7 +21,7 @@ function Tabs() {
           </Link>
         </li>
       </ul>
-      {/* Bloc image marue entrprise */}
+      <br />
     </div>
   )
 }
