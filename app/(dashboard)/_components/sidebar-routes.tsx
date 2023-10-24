@@ -7,6 +7,11 @@ import { SidebarItem } from "./sidebar-item";
 
 const guestRoutes = [
   {
+    icon: Compass,
+    label: "Home",
+    href: "/home",
+  },
+  {
     icon: Layout,
     label: "Dashboard",
     href: "/",
@@ -15,7 +20,7 @@ const guestRoutes = [
     icon: Compass,
     label: "Browse",
     href: "/search",
-  },
+  }
 ];
 
 const teacherRoutes = [
