@@ -1,15 +1,30 @@
 "use client";
 
-import { BarChart, Compass, Layout, List } from "lucide-react";
+import { BarChart, BookmarkIcon, Compass, DollarSign, FileEdit, HomeIcon, Layout, List, User2 } from "lucide-react";
 import { usePathname } from "next/navigation";
 
 import { SidebarItem } from "./sidebar-item";
 
 const guestRoutes = [
   {
-    icon: Compass,
+    icon: HomeIcon,
     label: "Home",
     href: "/home",
+  },
+  {
+    icon: User2,
+    label: "About",
+    href: "/about",
+  },
+  {
+    icon: DollarSign,
+    label: "Pricing",
+    href: "/pricing",
+  },
+  {
+    icon: FileEdit,
+    label: "Blog",
+    href: "/blog",
   },
   {
     icon: Layout,
